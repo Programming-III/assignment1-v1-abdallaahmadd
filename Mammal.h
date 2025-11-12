@@ -3,7 +3,24 @@
 
 #include "Animal.h"
 
-//define mammal class here
+class Mammal : Animal(){ 
+    private: 
+    string furColor; 
+    
+    public:
+            Mammal() : Animal(){
+                furColor="Blue";
+            }
+        Mammal(string furColor): Animal(string name, int age, bool isHungry){
+            this->furColor=furcolor; 
+        }
+        ~Mammal {
+        
+        }
+        void display(){
+            cout<<"color is:"<<furcolor<<endl
+        }
+};
 
 
 
