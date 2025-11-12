@@ -14,13 +14,13 @@ visitor(){
     VisitorName="ahmed";
     ticketBought="0";
 }
-visitor(string VisiorName, int ticketBought){
-    this->VisiorName=VisiorName;
+visitor(string VisitorName, int ticketBought){
+    this->VisitorName=VisitorName;
     this->ticketBought=ticketBought;
 }
 ~visitor{}
 void display(){
-    cout<<"name"<<VisiorName<<"tickets bought:"<<ticketBought<<endl;
+    cout<<"name"<<VisitorName<<"tickets bought:"<<ticketBought<<endl;
 }
 };
 
