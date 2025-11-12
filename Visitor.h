@@ -5,13 +5,13 @@
 using namespace std;
 
 //define visitor class here
-class visiotr{
+class visitor{
     private:
-    string VisiorName;
+    string VisitorName;
     int ticketBought; 
 public:
 visitor(){
-    VisiorName="ahmed";
+    VisitorName="ahmed";
     ticketBought="0";
 }
 visitor(string VisiorName, int ticketBought){
